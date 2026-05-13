@@ -100,3 +100,25 @@ body {
     font-size: 28px;
     margin-top: -6px;
 }
+/* Mobile Devices ke liye adjustments */
+@media (max-width: 600px) {
+    .card {
+        width: 90%; /* Card ko screen ke hisab se chota kar dega */
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    .search input {
+        width: 70%; /* Search bar ko adjust karega */
+        font-size: 16px; /* Taake zoom na ho */
+    }
+
+    .weather h1 {
+        font-size: 45px; /* Temperature ka size chota karega */
+    }
+
+    .details {
+        flex-direction: column; /* Columns ko upar niche kar dega */
+        gap: 20px;
+    }
+}
